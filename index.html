@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base2ML | AI Solutions for Businesses</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <!--#include file="includes/header.html" -->
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero">
+            <h1>Transform Your Business with AI</h1>
+            <p>Interactive demos. Real results. Tailored solutions.</p>
+        </section>
+
+        <section id="applications">
+            <h2>Applications</h2>
+            <p>See our chatbots, scheduling agents, document analyzers, and more in action.</p>
+        </section>
+
+        <section id="outcomes">
+            <h2>Outcomes</h2>
+            <p>Boost engagement, reduce workload, and enhance decision-making.</p>
+        </section>
+
+        <section id="corporate">
+            <h2>Corporate Solutions</h2>
+            <p>Private deployments, white-label tools, and support for your team.</p>
+        </section>
+    </main>
+
+    <!-- Chat Toggle -->
+    <div id="chat-toggle">
+        <img src="assets/chat-icon.png" alt="Chatbot" onclick="toggleChat()">
+    </div>
+    <div id="chainlit-chat" style="display:none;">
+        <iframe src="http://localhost:8501" frameborder="0"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <!--#include file="includes/footer.html" -->
+</body>
+</html>
